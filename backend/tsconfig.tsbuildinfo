@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/config/env.config.ts","./src/db/db.ts","./src/db/schema/index.schema.ts","./src/db/schema/note.schema.ts","./src/db/schema/user.schema.ts"],"version":"6.0.3"}
