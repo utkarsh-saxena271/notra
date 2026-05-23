@@ -9,5 +9,6 @@ function requireEnv(key: string): string {
 export const config = {
     PORT: requireEnv("PORT"),
     NODE_ENV: requireEnv("NODE_ENV"),
-    DATABASE_URL: requireEnv("DATABASE_URL")
+    DATABASE_URL: requireEnv("DATABASE_URL"),
+    JWT_SECRET:requireEnv("JWT_SECRET")
 }
