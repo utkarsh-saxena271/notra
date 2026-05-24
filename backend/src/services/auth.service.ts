@@ -47,7 +47,3 @@ export const loginService = async(data:Login) => {
         token
     }
 }
-
-export const logoutService = async() => {
-    
-}
