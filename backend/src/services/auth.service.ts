@@ -28,6 +28,9 @@ export const registerService = async(data : Register) => {
         email : email,
         password : hashedpass
     }).returning()
+    if(user.length === 0){
+        throw new APIError(400, "User doesnt register");
+    }
     return user[0];
 }
 

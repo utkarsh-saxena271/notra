@@ -6,8 +6,8 @@ import ApiResponse from "../utils/apiResponse.util.js";
 
 export const registerController = asyncHandler(async (req: Request, res: Response) => {
     const user = await registerService(req.body);
-    res.status(200).json(
-        new ApiResponse(200,
+    res.status(201).json(
+        new ApiResponse(201,
             {
                 id: user?.id,
                 name: user?.name,
